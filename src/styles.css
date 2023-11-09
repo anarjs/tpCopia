@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --colorPrimary: #606C38;
+  --colorSecondary: #DC9732;
+  --colorAlert: #BD3434;
+  --colorHover:#B4CB6A;
+  --colorText: #010101;
+  --colorTextLight: #F2F2F2;
+
+  --fontTitle: 'Pattaya';
+  --fontSubtitles: 'Raleway';
+  --fontSecondary: 'Raleway';
+  --fontText: 'Cabin';
+}
+
+h3{
+  font-family: var(--fontSubtitles), sans-serif;
+  font-weight: 500;
+  color: var(--colorTextLigth);
+}
+
