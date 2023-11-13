@@ -2,16 +2,57 @@
     "users": [
       {
         "id": 1,
+        "isAdmin": true,
         "userName": "admin",
         "email": "admin@gmail.com",
-        "password": "admin123"
+        "password": "admin123",
+        "favoriteRecipes": [],
+        "addComments": []
       },
       {
         "id": 2,
         "userName": "chandler",
         "email": "chan@gmail.com",
-        "password": "chandler1"
+        "password": "chandler1",
+        "favoriteRecipes": [],
+        "addComments": []
       }
 
-    ]
+    ],
+    "recipes": [
+      {
+          "recipeId": 1,
+          "recipeName": "Tortilla de papas con morrones y cebolla",
+          "ingredients": ["1kg de papas","10 huevos","2 cebollas y perejil","1 lata de pimientos morrones","sal y pimienta a gusto","150 grs de queso parmesano rallado","aceite de girasol" ],
+          "instructions":["Poner el aceite de girasol (cantidad necesaria) en la sartén y llevarla al fuego.","Cortar las papas en cuadraditos y colocarlas en la sartén","Cortar las cebollas «bien finitas» y agregarlas a la sartén","Batir 10 huevos en un bowl con la cantidad de sal y pimienta necesaria, agregar los morrones feteados, perejil picado y el queso","Con una espátula retirar las papas y las cebollas (deben estar doraditas) y verterlas en la preparación del bowl", "Retirar el excedente de aceite de la sartén, dejar sólo una lámina y poner en el fuego. Luego verter la preparación en la sartén. Al cabo de unos minutos dar vuelta con un plato la tortilla, dejar que se cocine unos minutos, volver a darla vuelta por última vez. Retirar, dejarla reposar unos minutos y servir. ¡A disfrutar!" ] ,
+          "image":"src/assets/recipes/tortilla-de-papas.jpg",
+          "comments": [ ]
+         
+      },
+      {
+          "recipeId": 2,
+          "recipeName": "Flan de chocolate",
+          "ingredients": ["4 huevos","4 yemas","2 tazas de leche","100 grs. de chocolate p/taza picado","4 cucharadas de cacao","Rulos de chocolate" ],
+          "instructions":["Mezclar los huevos con las yemas.","Calentar la leche junto con el chocolate y el cacao, mezclar y retirar del fuego.","Cuando esté tibio unir con la preparación de huevos.","Colocar en flanera acaramelada, llevar a horno moderado, a baño María.","Retirar, enfriar y desmoldar.", "Decorar con los rulos de chocolate."] ,
+          "image": "src/assets/recipes/flan-de-chocolate.jpg",
+          "comments": [ ]
+      },
+      {
+          "recipeId": 3,
+          "recipeName": "Milanesa de Soja",
+          "ingredients": [" Porotos de soja 600 g."," Huevos 2 unid."," Ajo 2 dientes.","Perejil un puñado.","Sal y pimienta a gusto","Harina de soja, integral o avena extra fina 100 g.","Huevos 3 unid.","Pan rallado c/n."," Tomate en rodajas c/n.","Queso cremoso c/n.","Orégano c/n."],
+          "instructions":["Poner a remojar los porotos en agua durante 12 horas en la heladera."," Hervir en agua limpia con sal hasta que estén tiernos. Retirar, escurrir y dejar enfriar.","Procesar, agregando el huevo, la harina y/o avena, el perejil, el ajo, sal y pimienta.","Retirar de la procesadora y amasar sobre la mesada para lograr una masa suave. Si es necesario agregar más harina."," Estirar la masa y cortar las milanesas en la forma deseada con cortante. Y congelar para facilitar el apanado."," Pasar las milanesas por huevo y luego por pan rallado. Poner en una placa caliente con rocío vegetal y cocinar en el horno."," Pasar las milanesas por huevo y luego por pan rallado. Poner en una placa caliente con rocío vegetal y cocinar en el horno."] ,
+          "image": "/assets/recipes/milanesas-de-soja.jpg",
+          "comments": [ ]
+      },
+      {
+          "recipeId": 4,
+          "recipeName": "Tarta de Zucchini y Berenjenas",
+          "ingredients": ["Harina 0000 - 250 g","Harina de garbanzo 50 g","Queso rallado 50 gr","Manteca fría - 125 g","Sal – 1 buena pizca","Agua helada – C/N","Zucchini rallado grueso con un poquito de sal para sacar el líquido (va en el ligue)","Berenjenas 1 unid","Cebolla","Tomate","Huevos 5 unid","Leche 250 cc" ],
+          "instructions":[" Para la masa, arenar la harina con la manteca fría en cubitos y queso rallado.","Sumar agua si es necesario y condimentar con pimienta. Tomar sin amasar y reservar en heladera, tapada."," Para el relleno: Cortar la berenjena cubos y la cebolla en cuartos. Dorar bien.","Cortar el tomate en cuartos y colocar en una placa con las demás verduras, condimentar con sal, pimienta, tomillo y ajo dientes enteros. Llevar al horno hasta que estén cocidas.","Armado: estirar la masa, colocar en una tartera, por arriba las verduras ordenadas y luego agregar el ligue."," Cocinar en un horno medio por 40 minutos aprox." ] ,
+          "image": "/assets/recipes/tarta-zucchini-y-berenjenas.jpg",
+          "comments": [ ]
+      }
+  ]
+
 }

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
+import { ListRecipesComponent } from './modules/recipe/list-recipes/list-recipes.component';
 import { LandingPageComponent } from './modules/landing/components/landing-page/landing-page.component';
 import { Error404Component } from './shared/error404/error404.component';
 import { CarouselComponent } from './modules/carousel/components/carousel.component';
@@ -8,8 +8,8 @@ import { CarouselComponent } from './modules/carousel/components/carousel.compon
 const routes: Routes = [
 
   {
-    path: 'nav-bar',
-    component: NavBarComponent
+    path: 'listRecipes',
+    component: ListRecipesComponent
   },
   {
     path:'landing',
